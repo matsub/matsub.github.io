@@ -1,0 +1,110 @@
+---
+---
+// gist
+.gist {
+    margin: 40px 0;
+    table {
+        border-spacing: initial;
+        td {
+            border-bottom: initial;
+        }
+    }
+}
+
+// inline code
+code.highlighter-rouge {
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    display: inline;
+    margin: 0 0.2em;
+    padding: 0.1em 0.4em;
+}
+
+// code block
+pre.highlight {
+    background-color: #f8f8f8;
+    padding: 8px 12px;
+    overflow: auto;
+}
+
+.highlight table td { padding: 5px; }
+.highlight table pre { margin: 0; }
+.highlight {
+    .c, .cs, .cd, .cm, .c1, .ge,
+    { font-style: italic; }
+
+    .cp, .cs, .gs,
+    .k, .kc, .kd, .kn, .kp, .kr, .kt, .kv,
+    .nc, .nd, .ne, .nf, .nl,
+    .o, .ow,
+    { font-weight: bold; }
+
+    .c, .cd, .cm, .c1,
+    { color: #999988; }
+
+    .cp, .cs, .gh, .bp,
+    { color: #999999; }
+
+    .gd, .ge, .gi,
+    .k, .kc, .kd, .kn, .kp, .kr, .kv,
+    .o, .ow,
+    { color: #000000; }
+
+    .gr, .gt, 
+    { color: #aa0000; }
+
+    .go
+    { color: #888888; }
+
+    .gp, .nn
+    { color: #555555; }
+
+    .gu
+    { color: #aaaaaa; }
+
+    .err
+    { color: #a61717; background-color: #e3d2d2; }
+
+    .gd
+    { background-color: #ffdddd; }
+
+    .gi
+    { background-color: #ddffdd; }
+
+    .kt, .nc 
+    { color: #445588; }
+
+    .m, .mf, .mh ,.il ,.mi ,.mo, .mb, .mx
+    { color: #009999; }
+
+    .sb, .sc ,.sd ,.s2 ,.se ,.sh ,.si ,.sx ,.s1 ,.s 
+    { color: #d14; }
+
+    .sr
+    { color: #009926; }
+
+    .ss
+    { color: #990073; }
+
+    .na, .no ,.vc ,.vg ,.vi ,.nv 
+    { color: #008080; }
+
+    .nb
+    { color: #0086B3; }
+
+    .nd
+    { color: #3c5d5d; }
+
+    .ni
+    { color: #800080; }
+
+    .ne, .nf ,.nl 
+    { color: #990000; }
+
+    .nt
+    { color: #000080; }
+
+    .w 
+    { color: #bbbbbb; }
+}
+

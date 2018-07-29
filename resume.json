@@ -1,0 +1,83 @@
+{
+    "basics": {
+        "name": "Riku Matsubara",
+        "label": "Student",
+        "picture": "//www.matsub.net/assets/images/me.png",
+        "email": "matsub.rk@gmail.com",
+        "phone": "(080) 6782-8453",
+        "website": "https://www.matsub.net",
+        "summary": "I'm a teapot",
+        "location": {
+            "address": "",
+            "postalCode": "",
+            "city": "Tokyo",
+            "countryCode": "JP",
+            "region": "Tokyo"
+        },
+        "profiles": [
+            {
+                "network": "Twitter",
+                "username": "matsubrk",
+                "url": "https://twitter.com/matsubrk"
+            },
+            {
+                "network": "GitHub",
+                "username": "matsub",
+                "url": "https://github.com/matsub"
+            },
+            {
+                "network": "Bitbucket",
+                "username": "matsub",
+                "url": "https://bitbucket.org/matsub/"
+            }
+        ]
+    },
+    "education": [
+        {
+            "institution": "Tokyo Denki University",
+            "area": "Information Systems",
+            "studyType": "Bachelor",
+            "startDate": "2014-04-01",
+            "gpa": "2.9",
+            "courses": []
+        }
+    ],
+    "skills": [
+        {
+            "name": "Web Development",
+            "level": "Advanced",
+            "keywords": [
+                "Python",
+                "ES6",
+                "HTML5"
+            ]
+        },
+        {
+            "name": "Data science",
+            "level": "Beginner",
+            "keywords": [
+                "Multivariable Analysis"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "Japanese",
+            "fluency": "Native speaker"
+        },
+        {
+            "language": "English",
+            "fluency": ""
+        }
+    ],
+    "interests": [
+        {
+            "name": "Science Fiction",
+            "keywords": [
+                "Philip K. Dick",
+                "William Gibson",
+                "Ted Chiang"
+            ]
+        }
+    ]
+}

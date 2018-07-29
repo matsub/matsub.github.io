@@ -1,0 +1,12 @@
+# Build settings
+permalink: /posts/:year/:month/:day/:title
+paginate: 20
+paginate_path: "posts/page:num"
+sass:
+  style: compressed
+  sass_dir: _sass
+
+# Gems
+plugins:
+- jekyll-paginate
+- jekyll-sitemap

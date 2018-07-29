@@ -1,0 +1,21 @@
+---
+layout: default
+title: Categories
+permalink: /categories/
+---
+<section>
+  {% for category in site.categories %}
+  <h2 id="{{ category | first }}">
+    <a href="#{{ category | first }}" class="octicon octicon-tag"></a>
+    {{ category | first }}
+  </h2>
+  <ul>
+    {% for post in category[1] %}
+    <li class="post-head">
+      <time>{{ post.date | date: "%b %Y" }}</time>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+  {% endfor %}
+</section>

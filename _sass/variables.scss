@@ -1,0 +1,19 @@
+/* fonts */
+@import url(//fonts.googleapis.com/css?family=Inconsolata);
+
+$fancy-font: sans-serif;
+$mono-font: Monaco, monospace;
+$code-font: "Inconsolata", monospace;
+
+/* colors */
+$theme-color: SteelBlue;
+
+$base-color: #30303b;
+$emph-color: lighten($theme-color, 10%);
+$weak-color: lighten($base-color, 30%);
+
+$bg-color: lighten($base-color, 74%);
+
+$hover: $theme-color;
+$visited: invert($hover);
+$active: invert($emph-color);

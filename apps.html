@@ -1,0 +1,13 @@
+---
+layout: default
+title: Apps
+permalink: /apps/
+---
+<ul>
+  {% for app in site.data.apps %}
+  <li>
+    <a href="{{ app.url }}" target="_blank">{{ app.name }}</a>
+    : {{ app.description }}
+  </li>
+  {% endfor %}
+</ul>
