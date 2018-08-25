@@ -2,6 +2,7 @@
 layout: post
 title: flattenの逆
 category: python
+syntax: true
 ---
 最近PIL(Pillowですけど)を使ったり
 機械学習で分類器に特徴ベクトル渡したりでよくflattenを使うのですが、

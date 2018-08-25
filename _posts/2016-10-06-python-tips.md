@@ -2,6 +2,7 @@
 layout: post
 title: 最近Pythonでほーんってなったやつ
 category: python
+syntax: true
 ---
 ここ最近のPythonのTips的な。
 ちなみに最近はWebRTCと機械学習にかまけてます。

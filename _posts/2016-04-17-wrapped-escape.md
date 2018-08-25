@@ -2,6 +2,7 @@
 layout: post
 title: シェルスクリプトの展開
 category: shellscript
+syntax: true
 ---
 texファイルがincludeしているファイルの一覧をsedで抽出して
 うふんあはんしていたところ、想像通りの挙動をしなかった話です。

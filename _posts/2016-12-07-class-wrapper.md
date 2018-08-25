@@ -2,6 +2,7 @@
 layout: post
 title: Pythonのデコレータが扱う値に副作用をもたせる
 category: python
+syntax: true
 ---
 この記事は、
 [PMOB Advent Calendar 2016](http://www.adventar.org/calendars/1832)

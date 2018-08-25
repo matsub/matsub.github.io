@@ -2,6 +2,7 @@
 layout: post
 title: anyenvのbrew formula作りました。
 category: macOS
+syntax: true
 ---
 
 作りました。

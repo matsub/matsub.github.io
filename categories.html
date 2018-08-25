@@ -6,7 +6,6 @@ permalink: /categories/
 <section>
   {% for category in site.categories %}
   <h2 id="{{ category | first }}">
-    <a href="#{{ category | first }}" class="octicon octicon-tag"></a>
     {{ category | first }}
   </h2>
   <ul>

@@ -2,6 +2,7 @@
 layout: post
 title: ghq+fzf on tmux
 category: shellscript
+syntax: true
 ---
 この記事は、 [PMOB Advent Calendar 2017][advcal] の記事です。
 

@@ -2,6 +2,7 @@
 layout: post
 title: 最近のdotfiles
 category: shellscript
+syntax: true
 ---
 
 この記事は、

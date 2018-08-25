@@ -1,9 +1,3 @@
 - name: PagePicker
   url: https://chrome.google.com/webstore/detail/pickimg/jppfmblpeocojaimknakebfakpbbccjf
   description: A chrome extension to downlaod bunch of pages.
-- name: buront.moji
-  url: https://github.com/matsub/buront.moji
-  description: An emojipack for Slack
-- name: confroom
-  url: https://www.matsub.net/confroom-legacy/
-  description: A simple app for voice/text chat. (available on latest chrome)
