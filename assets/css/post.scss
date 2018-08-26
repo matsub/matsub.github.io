@@ -8,6 +8,11 @@ article{
     h1{ font-size: 1.4em; }
 }
 
+figure {
+    width: 100%;
+    img { width: 100%; }
+}
+
 blockquote{
     font-style: italic;
     background-color: $bg-color;

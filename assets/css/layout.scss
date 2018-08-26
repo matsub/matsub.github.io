@@ -54,16 +54,7 @@ article{
 }
 hr{ margin: 1.6em auto; }
 nav{ text-align: center; }
-figure {
-    width: 100%;
-    img { width: 100%; }
-}
-table {
-    border-spacing: 8px 4px;
-}
-ul{
-    padding-left: 20px;
-}
+ul{ padding-left: 20px; }
 
 
 /************************
@@ -80,7 +71,10 @@ blockquote{
 /**************
  *   TABLES   *
  **************/
-table{ margin: auto; }
+table{
+    border-spacing: 8px 4px;
+    margin: auto;
+}
 
 
 /****************************
