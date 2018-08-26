@@ -19,12 +19,10 @@ footer{
 
     ul{
         list-style: none;
+        padding: 0;
 
         @media (max-width: 400px) {
-            li{
-                &:after{ content: ""; margin: 16px; }
-                &:last-child:after{ content: ""; }
-            }
+            li{ margin: 12px; }
         }
         @media (min-width: 400px) {
             display: flex;
