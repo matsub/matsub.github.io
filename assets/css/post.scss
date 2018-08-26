@@ -1,14 +1,37 @@
 ---
 ---
+@import "variables";
+
 article{
     // basic font sizes
     font-size: 1em;
-    h1{
-        font-size: 1.4em;
-    }
+    h1{ font-size: 1.4em; }
+}
 
-    // posted date
-    time{
-        font-weight: normal;
+blockquote{
+    font-style: italic;
+    background-color: $bg-color;
+
+    &:before{
+        font-size: 3.0em;
+        font-family: initial;
+        color: $weak-color;
+        position: absolute;
+    }
+    &:before{
+        content: "\201C";
+        top: -0.1em; 
+        left: 0.1em;
+    }
+}
+
+.category{
+    text-decoration: none;
+
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+
+    &:hover {
+        text-decoration: none;
     }
 }

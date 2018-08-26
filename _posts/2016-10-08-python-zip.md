@@ -2,7 +2,7 @@
 layout: post
 title: Pythonのzip関数の挙動
 category: python
-syntax: true
+styles: syntax
 ---
 
 はてなブログ時代にPythonのzipの挙動についてちょろっと書いていたんですが、

@@ -2,7 +2,7 @@
 layout: post
 title: An error occurred while verifying firmware.
 category: macOS
-syntax: true
+styles: syntax
 ---
 この記事は、 macOS爆発炎上倒壊メモです。かなり雑に書きます。
 あと多分[PMOB Advent Calendar 2017][advcal] の記事です。

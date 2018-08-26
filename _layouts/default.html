@@ -4,14 +4,19 @@
         <title>{{ page.title }} | matsub</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="/assets/css/fancy.css">
         <link rel="stylesheet" href="/assets/css/layout.css">
-        <link rel="stylesheet" href="/assets/css/design.css">
+        {% for style in page.styles %}
+        <link rel="stylesheet" href="/assets/css/ext/{{ style }}.css">
+        {% endfor %}
     </head>
     <body>
         <header>
             <h1>{{ page.title }}</h1>
         </header>
-        {{ content }}
+        <section>
+            {{ content }}
+        </section>
         {% include footer.html %}
     </body>
 </html>

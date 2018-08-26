@@ -3,27 +3,30 @@
 /********************
  *   ROOT ELEMENT   *
  ********************/
-*{ box-sizing: border-box; }
 html{ max-width: 800px; margin: auto; }
 
 
 /****************
  *   SECTIONS   *
  ****************/
-header{ text-align: center; }
+header{
+    padding: 0 16px;
+    text-align: center;
+    h1{ font-size: 2.0em; }
+}
 footer{
     text-align: center;
 
     ul{
         list-style: none;
 
-        @media (max-width: 480px) {
+        @media (max-width: 400px) {
             li{
                 &:after{ content: ""; margin: 16px; }
                 &:last-child:after{ content: ""; }
             }
         }
-        @media (min-width: 480px) {
+        @media (min-width: 400px) {
             display: flex;
             justify-content: center;
 
@@ -34,6 +37,10 @@ footer{
         }
     }
 }
+h1 { font-size: 1.6em; }
+h2 { font-size: 1.4em; }
+h3 { font-size: 1.2em; }
+h4 { font-size: 1.0em; }
 section{
     margin: auto;
     width: 80%;
@@ -41,31 +48,45 @@ section{
 article{
     @extend section;
     h1, h2, h3, h4, h5, h6{
-        margin-top: 40px;
+        margin-top: 60px;
         position: relative;
-        left: -1.0em;
     }
 }
 hr{ margin: 1.6em auto; }
-nav{
-    text-align: center;
-    a{ margin: 1.0em; }
-}
+nav{ text-align: center; }
 figure {
     width: 100%;
-    img {
-        width: 100%;
-    }
+    img { width: 100%; }
+}
+table {
+    border-spacing: 8px 4px;
+}
+ul{
+    padding-left: 20px;
 }
 
 
 /************************
  *   GROUPING CONTENT   *
  ************************/
-blockquote{ margin: 5%; }
+p{ font-size: 1.0em; }
+blockquote{
+    margin: 5%;
+    padding: 1.0em 2.0em;
+    position: relative;
+}
 
 
 /**************
  *   TABLES   *
  **************/
 table{ margin: auto; }
+
+
+/****************************
+ *   TEXT-LEVEL and EDITS   *
+ ****************************/
+time{
+    margin-right: 8px;
+    font-size: 0.8em;
+}

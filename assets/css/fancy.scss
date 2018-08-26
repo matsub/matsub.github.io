@@ -1,0 +1,56 @@
+---
+---
+@import "variables";
+
+/********************
+ *   ROOT ELEMENT   *
+ ********************/
+html{ color: $base-color; }
+
+
+/****************
+ *   SECTIONS   *
+ ****************/
+header{
+    font-family: $fancy-font;
+    p{ color: $weak-color; }
+}
+footer {
+    font-family: $fancy-font;
+}
+hr{
+    border-style: none;
+    border-bottom: solid 1px $weak-color;
+    width: 90%;
+}
+h1, h2, h3, h4 { font-family: $fancy-font; }
+h2, h3, h4 { font-weight: normal; }
+table td {
+    border-bottom: solid 1px lightgray;
+}
+
+
+/************************
+ *   GROUPING CONTENT   *
+ ************************/
+p { font-family: none; }
+
+
+/****************************
+ *   TEXT-LEVEL and EDITS   *
+ ****************************/
+time{
+    font-family: $mono-font;
+    font-weight: normal;
+}
+code{ font-family: $code-font; }
+a{
+    color: $emph-color;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover{
+        color: $hover;
+        text-decoration: underline;
+    }
+}
