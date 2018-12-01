@@ -1,9 +1,11 @@
 /* fonts */
-@import url(//fonts.googleapis.com/css?family=Inconsolata);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata|Halant);
 
+$readable-font: serif;
+$readable-font-eng: 'Halant', serif;
 $fancy-font: sans-serif;
 $mono-font: Monaco, monospace;
-$code-font: "Inconsolata", monospace;
+$code-font: 'Inconsolata', monospace;
 
 /* colors */
 $theme-color: SteelBlue;
