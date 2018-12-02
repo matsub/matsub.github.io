@@ -8,6 +8,8 @@ auto_tweet=0
 nnnn="\([0-9]\{4\}\)"
 nn="\([0-9]\{2\}\)"
 
+echo "start pre-push..."
+
 function get_added() {
     git diff remotes/origin/master --name-only --diff-filter=A \
         | grep -e "^_posts/[0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\}-.\+\.md"
