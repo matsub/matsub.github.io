@@ -17,7 +17,7 @@ styles: syntax
 
 雰囲気で、
 
-- PRのチェックが通り切ったら自動でreviewer割り当て
+- PR出たら自動でreviewer割り当て
 
 
 # GitHub Actionsとは？
