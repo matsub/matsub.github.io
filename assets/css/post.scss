@@ -9,8 +9,9 @@ article{
 }
 
 figure {
+    margin: 40px 0;
     width: 100%;
-    img { width: 100%; }
+    img { width: 100%; box-shadow: 2px 2px 8px gray; }
 }
 
 blockquote{

@@ -36,11 +36,9 @@ tmuxプロセスは複数のセッションを管理します。
 セッションは複数のウィンドウを持つことができます。
 ちなみにこの記事を書いてる最中のtmuxがこんな感じになってます。
 
-<img
-    alt="tmuxのスクショ"
-    src="/assets/images/2017-12-01-ghq-fzf-on-tmux/tmux.png"
-    width="600px"
-    >
+<figure>
+<img src="/assets/images/2017-12-01-ghq-fzf-on-tmux/tmux.png">
+</figure>
 
 ここではtmuxは 0-5 の6つのセッションを持っています。
 また、現在`matsub-github-io`というセッションにアタッチしていて、

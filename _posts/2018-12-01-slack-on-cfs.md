@@ -28,7 +28,9 @@ SlackのslashcommandsをGoogle Cloud Functionsで実装します。
 
 こっから新しく作ります。つくった。
 
-<img src="/assets/images/2018-12-01-slack-on-cfs/app_created.png" width="600px">
+<figure>
+<img src="/assets/images/2018-12-01-slack-on-cfs/app_created.png">
+</figure>
 
 
 # Cloud Functions作る
@@ -98,13 +100,17 @@ Slack Appの設定画面から、Slash Commandsの設定をします。
 
 Request URLはCFsからもらったURLを使うんじゃよ。
 
-<img src="/assets/images/2018-12-01-slack-on-cfs/configure_slashcommands.png" width="640px">
+<figure>
+<img src="/assets/images/2018-12-01-slack-on-cfs/configure_slashcommands.png">
+</figure>
 
 この時点でコマンドを２つ作ることはわかっていたので、先に設定しています。
 
 ではslash commands叩いてみましょう。
 
-<img src="/assets/images/2018-12-01-slack-on-cfs/got_raw_text.png" width="480px">
+<figure>
+<img src="/assets/images/2018-12-01-slack-on-cfs/got_raw_text.png">
+</figure>
 
 お、header忘れでjsonが無視されたっぽいですね。
 というかテキストそのまま吐いてくれましたっけ？Slackの仕様が変わった気がする。
@@ -122,7 +128,9 @@ Request URLはCFsからもらったURLを使うんじゃよ。
 
 これをデプロイした結果こうなった。
 
-<img src="/assets/images/2018-12-01-slack-on-cfs/completed.png" width="600px">
+<figure>
+<img src="/assets/images/2018-12-01-slack-on-cfs/completed.png">
+</figure>
 
 完成。記事書きながらで1時間くらいでできました。CFs楽ちんぞ
 
