@@ -1,7 +1,7 @@
 ---
 layout: post
 title: vimでHackMDっぽいlist-indent
-category: vim
+category: vimscript
 styles: syntax
 ---
 HackMDでリストをインデントする際の振る舞いが直感的で好きです。
